@@ -57,7 +57,7 @@ export default function ChatPanel({ onTodoCreated }: ChatPanelProps) {
           </div>
           <div>
             <h2 className="text-sm font-semibold text-white">AI Assistant</h2>
-            <p className="text-xs text-white/40">Powered by GPT-4.5</p>
+            <p className="text-xs text-white/40">Powered by GPT-5.4</p>
           </div>
         </div>
       </div>

@@ -1,12 +1,12 @@
 # 🚀 TodoList AI — Kanban Board with AI Assistant
 
-A full-stack **Kanban-style Todo List** application with an integrated **AI chatbot** powered by OpenAI GPT-4o. Built with **C# ASP.NET Core**, **React**, **Tailwind CSS**, and **PostgreSQL**, all containerized with **Docker**.
+A full-stack **Kanban-style Todo List** application with an integrated **AI chatbot** powered by OpenAI GPT-5.4. Built with **C# ASP.NET Core**, **React**, **Tailwind CSS**, and **PostgreSQL**, all containerized with **Docker**.
 
 ![.NET](https://img.shields.io/badge/.NET_10-512BD4?style=flat&logo=dotnet&logoColor=white)
 ![React](https://img.shields.io/badge/React_19-61DAFB?style=flat&logo=react&logoColor=black)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS_4-06B6D4?style=flat&logo=tailwindcss&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL_16-4169E1?style=flat&logo=postgresql&logoColor=white)
-![OpenAI](https://img.shields.io/badge/OpenAI_GPT--4o-412991?style=flat&logo=openai&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI_GPT--5.4-412991?style=flat&logo=openai&logoColor=white)
 
 ---
 
@@ -34,7 +34,7 @@ A full-stack **Kanban-style Todo List** application with an integrated **AI chat
 │  │  To Do   │  │In Progress│  │   Done   │  │ AI Chatbot │  │
 │  │  Column  │  │  Column   │  │  Column  │  │  Sidebar   │  │
 │  └──────────┘  └──────────┘  └──────────┘  └────────────┘  │
-│         Drag & Drop (@dnd-kit)       │    OpenAI GPT-4o     │
+│         Drag & Drop (@dnd-kit)       │    OpenAI GPT-5.4    │
 └──────────────────────────┬──────────────────────────────────┘
                            │ HTTP (Vite Proxy)
 ┌──────────────────────────▼──────────────────────────────────┐
@@ -52,7 +52,7 @@ A full-stack **Kanban-style Todo List** application with an integrated **AI chat
 ┌───────────▼───────────┐  ┌───────────▼───────────┐
 │      PostgreSQL 16    │  │     OpenAI API        │
 │   Docker Container    │  │   api.openai.com/v1   │
-│   Port 5432           │  │   GPT-4o Model        │
+│   Port 5432           │  │   GPT-5.4 Model       │
 └───────────────────────┘  └───────────────────────┘
 ```
 
@@ -68,7 +68,7 @@ A full-stack **Kanban-style Todo List** application with an integrated **AI chat
 | **Backend** | ASP.NET Core 10 (Minimal APIs) | RESTful API endpoints |
 | **ORM** | Entity Framework Core 10 + Npgsql | PostgreSQL data access |
 | **Database** | PostgreSQL 16 (Alpine) | Persistent storage |
-| **AI** | OpenAI GPT-4o | Chatbot assistant |
+| **AI** | OpenAI GPT-5.4 | Chatbot assistant |
 | **Container** | Docker Compose | PostgreSQL hosting |
 | **Build** | Vite 8 | Frontend dev server and bundler |
 

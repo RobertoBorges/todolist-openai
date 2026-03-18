@@ -162,7 +162,7 @@ app.MapPost("/api/chat", async (ChatRequest request, TodoDbContext db, IHttpClie
     var client = httpFactory.CreateClient("OpenAI");
     var payload = new
     {
-        model = "gpt-4o",
+        model = "gpt-5.4",
         messages,
         temperature = 0.7,
         max_tokens = 1000
