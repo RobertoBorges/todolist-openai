@@ -1,0 +1,27 @@
+@host = http://localhost:5242
+
+### List all todos
+GET {{host}}/api/todos
+
+### Create a todo
+POST {{host}}/api/todos
+Content-Type: application/json
+
+{
+  "title": "Buy groceries",
+  "description": "Milk, eggs, bread"
+}
+
+### Get todo by id
+GET {{host}}/api/todos/1
+
+### Update a todo
+PUT {{host}}/api/todos/1
+Content-Type: application/json
+
+{
+  "isCompleted": true
+}
+
+### Delete a todo
+DELETE {{host}}/api/todos/1
